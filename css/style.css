@@ -83,7 +83,7 @@ body{
 
 p span:before {
     content: '';
-    animation: greating_animation infinite 10s ease;
+    animation: greating_animation infinite 9s ease;
     transform: translateY(-50%);
     color: lightyellow;
     font-size: 25px;
@@ -91,10 +91,10 @@ p span:before {
 
 @keyframes greating_animation {
     0% {
-        content: 'So bene quanto ti piacciono...';
+        content: 'So bene quanto ti piacciano i fiori';
     }
-    50% {
-        content: 'Questi non appassiranno mai...';
+    70% {
+        content: 'e questi non appassiranno mai...';
     }
     100% {
         content: 'Che aspetti... apri il biglietto :)';
